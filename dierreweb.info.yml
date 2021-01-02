@@ -1,0 +1,17 @@
+name: Dierreweb 
+type: theme 
+description: Drupal 9 Starter Theme 
+core_version_requirement: ^8 || ^9
+version: '1.0' 
+libraries:
+  - dierreweb/global-css
+  - dierreweb/global-js
+base theme: false
+stylesheets-remove: 
+  - core/modules/views/css/views.module.css
+  - core/modules/system/css/components/align.module.css
+
+
+
+
+
